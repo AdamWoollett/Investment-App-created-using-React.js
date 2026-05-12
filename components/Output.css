@@ -1,0 +1,82 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: right;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+#result {
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+  border-collapse: collapse;
+}
+
+#result thead {
+  background-color: #34495e;
+  color: rgb(0, 0, 0);
+}
+
+#result th,
+#result td {
+  padding: 0.5rem;
+  text-align: right;
+}
+
+#result tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  padding: 8px;
+}
+
+.pdf-button-visible{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.pdf-button-hidden{
+  visibility: hidden;
+}
+
+.pdfbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:8px;
+  background-color: lightgreen;
+  border: 4px solid green;
+  font-size: medium;
+}
+
+.loading-invisible{
+  visibility: hidden;
+  color:blue;
+}
+
+.loading-visible{
+  color: blue;
+}
